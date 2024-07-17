@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Ecuación General de Segundo Grado</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="recu.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center">Calculadora Ecuación General de Segundo Grado</h2><br><br>
+        <div id="form-section">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="coefA">Coeficiente a</label>
+                        <input type="number" class="form-control" id="coefA">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="coefB">Coeficiente b</label>
+                        <input type="number" class="form-control" id="coefB">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="coefC">Coeficiente c</label>
+                        <input type="number" class="form-control" id="coefC">
+                    </div>
+                </div>
+            </div><br><br>
+            <div class="row justify-content-center">
+                <div class="col-md-3 text-center">
+                    <button class="btn btn-primary" style="padding: 10px; width: 100%;">Evaluar</button>
+                </div>
+            </div>
+        </div>
+        <div id="result" class="mt-5"></div>
+    </div>
+
+  
+    <script src="recu.js"></script>
+</body>
+</html>
